@@ -93,8 +93,6 @@ export default {
 					},
 					error: function( MLHttpRequest, textStatus ) {
 
-						console.log(MLHttpRequest);
-
 						$('.cw-async-status').html( textStatus );
 					},
 				});
