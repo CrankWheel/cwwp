@@ -16,7 +16,7 @@ class Activator {
 
 	public static function activate() {
 
-		add_option( '_cw_api_first_activation', time() )
+		add_option( '_cw_api_first_activation', time() );
 	}
 
 }
