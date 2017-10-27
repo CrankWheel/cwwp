@@ -21,6 +21,7 @@ bower_components
 node_modules
 vendor
 yarn-error.log
+crankwheel.zip
 
 # OSX Files
 .DS_Store

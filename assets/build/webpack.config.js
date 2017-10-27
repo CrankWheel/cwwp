@@ -189,7 +189,31 @@ let webpackConfig = {
 	}
 
 	if (config.env.production) {
+
+		const path = config.paths.root;
+		const ZipFilesPlugin = require('webpack-zip-files-plugin');
+
 		webpackConfig.plugins.push(new webpack.NoEmitOnErrorsPlugin());
+		webpackConfig.plugins.push(
+
+			new ZipFilesPlugin({
+				entries: [
+					{ src: path + '/admin', dist: 'admin' },
+					{ src: path + '/dist', dist: 'dist' },
+					{ src: path + '/includes', dist: 'includes' },
+					{ src: path + '/crankwheel.php', dist: 'crankwheel.php' },
+					{ src: path + '/index.php', dist: 'index.php' },
+					{ src: path + '/uninstall.php', dist: 'uninstall.php' },
+					{ src: path + '/LICENSE.txt', dist: 'LICENSE.txt' },
+					{ src: path + '/README.txt', dist: 'README.txt' },
+					{ src: path + '/README.md', dist: 'README.md' },
+					{ src: path + '/icon-128x128.png', dist: 'icon-128x128.png' },
+					{ src: path + '/icon-256x256.png', dist: 'icon-256x256.png' },
+				],
+				output: path + '/crankwheel',
+				format: 'zip',
+			})
+		);
 	}
 
 	if (config.enabled.cacheBusting) {
