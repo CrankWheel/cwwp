@@ -14,6 +14,7 @@
 
 	.cw-section {
 		padding-bottom: 20px;
+		max-width: 450px;
 	}
 
 	.cw-section h3 {
@@ -22,7 +23,7 @@
 }
 
 .cw-link-wrap {
-	max-width: 600px;
+	display: flex;
 
 	.span-copy,
 	.span-input,
@@ -35,7 +36,42 @@
 		min-width: 320px;
 	}
 
+	.span-button {
+		flex: 1;
+		margin-left: 10px;
+
+		button.button-primary {
+			width: 100%;
+			animation: cta-pop 400ms ease 2s;
+		}
+	}
+
 	.span-copy {
 		color: green;
+	}
+}
+
+.cw-connect-wrap {
+	text-align: center;
+
+	small {
+		line-height: 2.5em;
+	}
+
+	button.button-primary {
+		width: 100%;
+		height: 50px;
+	}
+}
+
+@keyframes cta-pop {
+	0% {
+		scale: 1;
+	}
+	50% {
+		scale: 1.2;
+	}
+	100% {
+		scale: 1;
 	}
 }
