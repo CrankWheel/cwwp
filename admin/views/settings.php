@@ -10,8 +10,8 @@ $cw = new API\CW_API(); ?>
 
 <div class="wrap">
 	<div class="cw-section">
-		<h1><?php _e('CrankWheel Instant Demos for WordPress', 'crankwheel'); ?></h1>
-		<p><?php _e('Demo to your prospects instantly from your website usign screen sharing without the regular setup friction <a href="https://crankwheel.com" target="_blank">See how it works</a>', 'crankwheel'); ?></p>
+		<h3><?php _e('CrankWheel Instant Demos for WordPress', 'crankwheel'); ?></h3>
+		<p><?php _e('Demo to your prospects instantly from your website usign screen sharing without the regular setup friction. <a href="http://crankwheel.com/instant-demos/#let-me-show-you" target="_blank">See how it works</a>', 'crankwheel'); ?></p>
 	</div>
 
 
@@ -21,9 +21,11 @@ $cw = new API\CW_API(); ?>
 		<?php if ( ! $cw->is_connected() ) : ?>
 
 			<p><?php _e('To get started with using Instant Demos, please connect to your CrankWheel account.', 'crankwheel'); ?></p>
-			<p><button class="button-primary" data-crankwheel="connect"><?php _e('Connect Now', 'crankwheel'); ?></button></p>
-			<small><?php _e('Don\'t have an account? <a href="https://crankwheel.com" target="_blank">Click here to Sign Up</a>', 'crankwheel'); ?></small>
-
+			<p class="cw-connect-wrap">
+				<button class="button-primary" data-crankwheel="connect"><?php _e('Connect Now', 'crankwheel'); ?></button>
+				<small><?php _e('Don\'t have an account? <a href="https://crankwheelusd.chargify.com/subscribe/pswb5r27j57p/crankwheel-seed-funding-plan-w-trial" target="_blank">Click here to Sign Up</a>', 'crankwheel'); ?></small>
+			</p>
+			
 		<?php else: ?>
 
 			<p class="status"><?php _e('You are <span>connected</span>.', 'crankwheel'); ?></p>
