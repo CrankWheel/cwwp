@@ -48,11 +48,15 @@
 
 	.span-copy {
 		color: green;
+		position: absolute;
+		right: -65px;
+		margin-top: 5px;
 	}
 }
 
 .cw-connect-wrap {
 	text-align: center;
+	position: relative;
 
 	small {
 		line-height: 2.5em;
