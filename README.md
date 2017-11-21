@@ -3,7 +3,7 @@ Contributors: CrankWheel
 Donate link: https://crankwheel.com
 Tags: increase sales, screen sharing, screen share, join.me, gotomeeting, zoomus, zoom, mikogo, callpage, form, lead capture, lead enrichment, business software, crankwheel, embed on website, popup form, request a demo, book a demo, get a demo, instant demo, instant demos, demo software, presentation software, customer service, customer support, customer success, csr, custserv, client services, cro, conversion rate optimization, increase conversions, inside sales, sales enablement, sales software, sales app, website conversion
 Requires at least: 4.5
-Tested up to: 4.8.2
+Tested up to: 4.9
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,7 +36,7 @@ Some purchases can only be completed through signatures - in person. Instead of 
 
 = Customer Success Management =
 
-Embedding request a demo buttons throughout the website visitor's journey builds their confidence that at any point they can request high-touch help from a real person. The ability to request that you show your customer exactly what they need to see in order to succeed has never yet been available on WordPress!  
+Embedding request a demo buttons throughout the website visitor's journey builds their confidence that at any point they can request high-touch help from a real person. The ability to request that you show your customer exactly what they need to see in order to succeed has never yet been available on WordPress!
 
 == Installation ==
 
