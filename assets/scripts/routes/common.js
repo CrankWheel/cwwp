@@ -5,17 +5,12 @@ export default {
 
 		/**
 		 * Close oAuth Frame on postMessage received from CrankWheel API
-		 * Closing is done with delay of 500ms for smoother experience
 		 */
 		window.addEventListener('message', function(e) {
-
-			if ( e.data === 'closeFrame' ) {
-
-				setTimeout( function() {
-
-					e.source.close();
-					location.reload();
-				}, 500);
+			if ( e.data.startsWith('closeFrame:') ) {
+				var response = e.data.substr(e.data.search(":") + 1);
+				e.source.close();
+				location.href = location.href + "&cwresponse=" + encodeURIComponent(response);
 			}
 		});
 

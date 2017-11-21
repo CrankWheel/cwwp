@@ -79,5 +79,10 @@ As part of signup, you will install CrankWheel and create an account. Once you'r
 
 == Changelog ==
 
+= 1.0.1 =
+
+Switch approach of getting data between plugin and CrankWheel service to a more
+compatible approach.
+
 = 1.0 =
 * Release
