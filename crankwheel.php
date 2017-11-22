@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'CW_URI', trailingslashit( plugin_dir_url(__FILE__) ) );
 define( 'CW_PATH', trailingslashit( plugin_dir_path(__FILE__) ) );
 define( 'CW_VER', '1.0.1' );
-define( 'CW_API', 'http://localhost:3000/ss/instant_demo/request_snippet');
+define( 'CW_API', 'https://meeting.is/ss/instant_demo/request_snippet');
 define( 'CW_NAME', 'CrankWheel WordPress Plug-in');
 
 
