@@ -50,9 +50,8 @@ $cw = new API\CW_API(); ?>
             */
             if ( ! $cw->is_connected() ) :
                 parse_str($_SERVER['QUERY_STRING'], $query_params);
-                $response = $query_params['cwresponse'];
-                if ( isset($response) ) :
-                    $cw->authenticate($response);
+                if ( array_key_exists('cwresponse', $query_params) ) :
+                    $cw->authenticate($query_params['cwresponse']);
                     if ( $cw->is_connected() ) :
                         ?> <script type="text/javascript">location.reload();</script> <?php
                     endif;
