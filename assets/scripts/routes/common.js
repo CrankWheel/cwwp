@@ -121,5 +121,13 @@ export default {
 				}
 			});
 		}
+
+        var configureBtn = document.querySelector('.cw-configure-demos');
+
+        if ( configureBtn ) {
+            configureBtn.addEventListener('click', function() {
+                location.href = 'https://meeting.is/ss/instant_demo/configure';
+            })
+        }
 	},
 };
