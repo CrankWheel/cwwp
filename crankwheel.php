@@ -17,7 +17,7 @@ use CrankWheel\API;
  * Plugin Name:       CrankWheel
  * Plugin URI:        https://github.com/CrankWheel/cwwp
  * Description:       The CrankWheel WP plug-in helps users add their custom JavaScript snippet for CrankWheel into their WordPress site, and gives them an easy way to copy a URL they should apply to any buttons or clickable elements that are intended to launch the CrankWheel Instant Demos lead capture process.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            CrankWheel
  * Author URI:        http://crankwheel.com
  * License:           GPL-2.0+

@@ -79,6 +79,10 @@ As part of signup, you will install CrankWheel and create an account. Once you'r
 
 == Changelog ==
 
+= 1.0.2 =
+* Test compatibility with WordPress 5.0 and fix bug when signing up for new
+  account.
+
 = 1.0.1 =
 * Switch approach of getting data between plugin and CrankWheel service to a more
   compatible approach.

@@ -23,7 +23,7 @@ $cw = new API\CW_API(); ?>
 			<p><?php _e('To get started with using Instant Demos, please connect to your CrankWheel account.', 'crankwheel'); ?></p>
 			<p class="cw-connect-wrap">
 				<button class="button-primary" data-crankwheel="connect"><?php _e('Connect to Existing Account', 'crankwheel'); ?></button>
-				<small><?php _e('Don\'t have an account? <a href="http://crankwheel.com/signup/trial" target="_blank">Click here to Sign Up</a>', 'crankwheel'); ?></small>
+				<small><?php _e('Don\'t have an account? <a href="https://meeting.is/ss/signup#email" target="_blank">Click here to Sign Up</a>', 'crankwheel'); ?></small>
 			</p>
 
 		<?php else: ?>
