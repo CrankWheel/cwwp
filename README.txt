@@ -3,7 +3,7 @@ Contributors: CrankWheel
 Donate link: https://crankwheel.com
 Tags: increase sales, screen sharing, screen share, join.me, gotomeeting, zoomus, zoom, mikogo, callpage, form, lead capture, lead enrichment, business software, crankwheel, embed on website, popup form, request a demo, book a demo, get a demo, instant demo, instant demos, demo software, presentation software, customer service, customer support, customer success, csr, custserv, client services, cro, conversion rate optimization, increase conversions, inside sales, sales enablement, sales software, sales app, website conversion
 Requires at least: 4.5
-Tested up to: 4.9.1
+Tested up to: 5.0
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
