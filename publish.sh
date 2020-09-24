@@ -10,6 +10,9 @@
 # Your username and password are the same as you use to log in at
 # www.wordpress.org.
 #
+# You should check out the SVN repo to a sister directory of this Git repo,
+# e.g. ../svncwwp
+#
 # Your credentials will be stored the first time you check in to SVN. You can
 # create a dummy checkin e.g. by modifying one character in the README.txt file
 # and then submitting as follows (example assumes username is joisig):
@@ -20,6 +23,13 @@
 #
 # A dashboard showing installation numbers is available at:
 #   https://wordpress.org/plugins/crankwheel/advanced/
+#
+# Before running this script, you need to install Yarn if you don't already have it:
+#   brew install yarn
+#
+# If you get an SVN repo with inconsistent changes, you can recover like so:
+#   cd ../svncwwp
+#   svn revert -R .
 
 if [ -z "$1" ]; then
     echo "Must supply one argument, the root directory of the SVN repository."
